@@ -12,7 +12,3 @@
 }
  
 		 by package.json 
-		 by package.json 
-		 by package.json 
-		 by package.json 
-		 by package.json
