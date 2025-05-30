@@ -58,34 +58,34 @@
 
 // Module package FILE  => biz ozimi tomonimizdan yaratilgan module packagelar
 
-const calculate = require('./hisob.js');
+// const calculate = require('./hisob.js');
 
-const natija1 = calculate.kopaytirish(100, 5);
-console.log(natija1);
-console.log('=================================');
-const natija2 = calculate.bolish(10, 50);
-console.log(natija2);
-console.log('=================================');
-const natija3 = calculate.qoshish(10, 550);
-console.log(natija3);
-console.log('=================================');
-const natija4 = calculate.ayrish(10, 51);
-console.log(natija4);
+// const natija1 = calculate.kopaytirish(100, 5);
+// console.log(natija1);
+// console.log('=================================');
+// const natija2 = calculate.bolish(10, 50);
+// console.log(natija2);
+// console.log('=================================');
+// const natija3 = calculate.qoshish(10, 550);
+// console.log(natija3);
+// console.log('=================================');
+// const natija4 = calculate.ayrish(10, 51);
+// console.log(natija4);
 
 
-const Account = require("./account.js");
+// const Account = require("./account.js");
 
-Account.tellMeAboutClass();
+// Account.tellMeAboutClass();
 
-Account.tellMeTime();
+// Account.tellMeTime();
 
-const myAccount = new Account('Kai', 500000, 98812312012);
-myAccount.givMeDetails();
+// const myAccount = new Account('Kai', 500000, 98812312012);
+// myAccount.givMeDetails();
 
-myAccount.makeDeposit(100000);
+// myAccount.makeDeposit(100000);
 
-myAccount.withdrawMoney(5000000);
+// myAccount.withdrawMoney(5000000);
 
-myAccount.withdrawMoney(50000);
+// myAccount.withdrawMoney(50000);
 
-myAccount.tellMeBlance();
+// myAccount.tellMeBlance();
